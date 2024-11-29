@@ -1,0 +1,302 @@
+/* All Common CSS Start  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All Common CSS End  */
+
+/* Top Header Part Start  */
+#topHeader {
+    background: #3e3e3e;
+    padding: 20px 0;
+}
+
+.topHeaderItemPart {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topHleft span {
+    color: #fff;
+    margin-right: 35px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.topHleft span i {
+    padding-right: 5px;
+}
+
+.topHright i {
+    padding: 0 10px;
+    color: #fff;
+}
+
+/* Top Header Part End */
+
+/* Header Part Start  */
+#headerPart {
+    padding: 20px 0;
+}
+
+.logoWithMenu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+.menu {
+    padding-top: 15px;
+}
+
+/* Header Part End */
+
+/* Banner Part Start  */
+#bannerPart {
+
+    background: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.bannerOverly {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 250px;
+    padding-bottom: 340px;
+}
+
+.bannerText {
+    text-align: center;
+}
+
+.bannerText span {
+    color: #f8b864;
+}
+
+.bannerText h4 {
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+
+.bannerText h1 {
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.bannerText p {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding: 0 334px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.bannerText {
+    color: #fff;
+}
+
+.bannerText a {
+    padding: 15px 35px;
+    background: #f8b864;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    transition: .4s;
+
+}
+
+.bannerText a:hover {
+    background: #fff;
+    color: #f8b864;
+}
+
+/* Banner Part End */
+
+/* Goal Part Start  */
+#goalPart {
+    background: #fff;
+    padding-bottom: 250px;
+   
+}
+.over{
+    position: relative;
+}
+.goalCard {
+    background: white;
+    padding: 130px 60px;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.2);
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.goalCard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+.goalCard p{
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.goalHand{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.goalHand::before{
+position: absolute;
+height: 1px;
+width: 150px;
+background: #555555;
+content: "";
+left: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+.goalHand::after{
+position: absolute;
+height: 1px;
+width: 150px;
+background: #555555;
+content: "";
+right: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+.goalItemPart{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.goalItem{
+    width: 30%;
+
+}
+.goalItem i{
+    font-size: 50px;
+   
+}
+.goalItem{
+    text-align: center;
+}
+
+.goalItem h3{
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.goalItem p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+/* Goal Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */

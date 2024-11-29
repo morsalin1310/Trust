@@ -1,0 +1,599 @@
+*{
+
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+#topheader{
+
+    background: #3e3e3e;
+    padding: 20px;
+}
+.hI{
+
+    display: flex;
+    justify-content: space-between;
+}
+.tophleft span{
+
+    color: white;
+    margin-right: 35px;
+    font-style: 12px;
+ font-family: "Open Sans", sans-serif;
+
+}
+.tophleft span i{
+    margin-right: 5px;
+}
+
+
+.tophright span i{
+    color: white;
+   padding: 0 10px;
+}
+.logowithmenu{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.logo{
+  
+    padding-top: 20px;
+}
+,menu{
+    padding-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 100px;
+}
+.menu ul li a{
+   text-transform: uppercase;
+   font-size: 15px;
+   color: #555555;
+   font-family: "Open Sans", sans-serif;
+   font-weight: bold;
+   padding: 0 25px;
+
+}
+
+
+/* menu part end */
+#bannerpart{
+    background: white;
+    background: url(../image/1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 250px;
+    padding-bottom: 340px;
+  
+  }
+.bannertext{
+    text-align: center;
+}
+.bannertext span{
+    color: #f8b864;
+}
+.bannertext h4{
+   font-size: 30px;
+   color: #fff;
+   font-family: "Roboto Slab", serif;
+   font-weight: bold;
+
+}
+.bannertext h1{
+    font-size: 60px;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 30px;
+ 
+    
+    
+}
+.bannertext p{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    
+    
+    padding: 30px 303px;
+}
+.bannertext{
+    color: #fff;
+}
+/* donate button part */
+.bannertext a{
+    padding: 14px 35px;
+    background: #F8B864;
+    border-radius: 50px;
+    color:#fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    transition-duration: .4s;
+    margin-top: 50px;
+
+    
+
+}
+.bannertext a:hover{
+    background: #fff;
+    color:#f8b864;
+}
+
+#goal{
+    background:#fff;
+    padding-bottom: 250px;
+
+
+}
+.over{
+    position:relative;
+}
+.goalcard{
+    background: #fff;
+    padding: 130px 60px;
+   
+    box-shadow: 0px 0px 5px  rgba(85,8,85,0.2);
+    position:absolute;
+     top: -100px;
+     left: 0px;
+      width:100%; 
+      text-align: center;
+
+} 
+.goalcard h3{
+     font-size: 30px;
+     font-family: font-family: "Roboto Slab", serif;
+     color: #555555;
+}
+.goalcard p{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #555555;
+    font-weight: 400;
+    margin-top: 20px;
+  
+
+}
+ 
+.himg{
+    position: relative;
+    display:inline-block;
+    margin-top: 100px;
+}
+.himg::before{
+
+    position:absolute;
+    height: 1px;
+    width: 150px;
+    background: #555555;
+    content: "";
+    left: -180px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.himg::after{
+
+    position:absolute;
+    height: 1px;
+    width: 150px;
+    background: #555555;
+    content: "";
+    right: -180px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.goalitem{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+   color: #555555;
+
+
+
+
+}
+
+.gi{
+    width:30%;
+    text-align: center;
+}
+.gi i{
+    font-size: 50px;
+}
+
+/* Cause Part Start  */
+#causePart {
+    background: #fff;
+   padding-top: 80px;
+   
+}
+.over{
+    position: relative;
+}
+.causeCard {
+    background: white;
+    padding: 130px 60px;
+    /* box-shadow: 0 0 5px rgba(85, 85, 85, 0.2); */
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.causeCard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+.causeCard p{
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.goalHand{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.goalHand::before{
+position: absolute;
+height: 1px;
+width: 150px;
+background: #555555;
+content: "";
+left: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+.goalHand::after{
+position: absolute;
+height: 1px;
+width: 150px;
+background: #555555;
+content: "";
+right: -170px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+
+
+/* Course Part Start Here  */
+#coursePart{
+    padding-top: 575px;
+}
+
+.courseFlex{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* position: absolute;     */
+}
+
+.courseItem{
+    width: 31%;
+    /* background: teal; */
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.2);
+}
+
+.courseImg img{
+    width: 100%;
+}
+
+.courseText{
+    padding: 35px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseText a {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: tomato;
+}
+
+.courseText h3 {
+    transition: 0.4s;
+}
+
+.courseText h3:hover{
+    color: tomato;
+}
+
+.courseText h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+    font-family: "Roboto Slab", serif;
+}
+  
+.courseText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #777777;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.courseText a{
+    color: #ffff;
+    background: #f8b864;
+}
+
+.price p{
+    font-size: 13px;
+    color: #888888;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.price p span{
+    color: #555555;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+/* Course Part End Here  */
+
+/* Video Part Start Here  */
+#videoPart{
+    padding: 100px 0;
+    background: #f8f8f8;
+}
+
+.videoItemPart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.videoLeft{
+    width: 45%;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videoLeft img{
+    width: 100%;
+}
+
+.videoTextRight{
+    width: 45%;
+}
+
+.videoTextLeft{
+    width: 45%;
+}
+
+.videoTextRight h3{
+    padding: 60px 0;
+    position: relative;
+    color: #555555;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+
+.videoTextRight h3::before{
+    position: absolute;
+    height: 1px;
+    width: 70px;
+    background: red;
+    content: "";
+    margin-top: 50px;
+}
+
+.videoTextRight p{
+    color: #555555;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    width: 78%;
+    padding-bottom: 20px;
+}
+
+.videoTextRight a{
+    color: #ffffff;
+    padding: 12px 30px;
+    background: #f8b864;
+    border-radius: 30px;
+}
+
+.videoTextLeft h3{
+    padding: 60px 0;
+    position: relative;
+    color: #555555;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    margin-left: 60%;
+}
+
+.videoTextLeft h3::before{
+    position: absolute;
+    height: 1px;
+    width: 70px;
+    background: red;
+    content: "";
+    margin-top: 50px;
+    margin-left: 62%;
+}
+
+.videoTextLeft p{
+    color: #555555;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    width: 78%;
+    padding-bottom: 20px;
+    margin-left: 20%;
+}
+
+.videoTextLeft a{
+    color: #ffffff;
+    padding: 12px 30px;
+    background: #f8b864;
+    border-radius: 30px;
+    margin-left: 75%;
+}
+/* Video Part End Here  */
+
+/* Counter Part Start Here  */
+#counterPart{
+    background: url(../image/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlyCounter{
+    padding: 150px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.counterFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.counterItem{
+    width: 25%;
+    text-align: center;
+}
+
+.counterItem h1{
+    font-family: "Roboto Slab", serif;
+    font-size: 72px;
+    color: #ffff;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+.counterItem h6{
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 400;
+}
+/* Counter Part End Here  */
+
+/* Help Part Start Here  */
+#helpPart{
+    /* margin-top: 350px; */
+    margin-bottom: 80px;
+    background: #ffff;
+}
+
+.over{
+    position: relative;
+}
+
+.helpCard {
+    background: #ffff;
+    /* padding: 130px 60px; */
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.helpCard h3{
+    font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+
+.helpCard p{
+    margin-top: 20px;
+    color: #555555;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.helpHand{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.helpHand::before{
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background: #555555;
+    content: "";
+    left: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.helpHand::after{
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background: #555555;
+    content: "";
+    right: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Help Part End Here  */
+
+
+/* Top Header Part Start Here  */
+/* Top Header Part End Here  */
+
+
+
+
+
+
